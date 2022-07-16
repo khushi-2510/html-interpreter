@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="interpreter.css">
+    <title>Live interpreter</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">Live Interpreter for HTML</div>
+        <div class="mainframe">
+            <div class="editor">
+                <div class="subheading"> Write your code here </div>
+                <textarea type="code" name="editor" id="editorBox" oninput="onCodeChange()"></textarea>
+            </div>
+            <div class="preview">
+                <div class="subheading">⦿ Live Preview</div>
+                <div id="previewBox"></div>
+            </div>
+        </div>
+    </div>
+    <script src="interpreter.js"></script>
+</body>
+</html>
